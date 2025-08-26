@@ -42,4 +42,4 @@ Change the keywords of the Key: 填写你的Key
 演示站点：https://www.3e0.cn/
 Demo site: https://www.3e0.cn/
 
-![演示](/Personal-Homepage/tree/main/demo/img/8954d0dc-31f6-4b47-8670-516829d00322.png)
+![演示](/demo/img/8954d0dc-31f6-4b47-8670-516829d00322.png)
