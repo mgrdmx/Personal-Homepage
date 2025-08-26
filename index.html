@@ -1099,7 +1099,7 @@
                     const key = '填写你的Key';
                     
                     // 首先获取位置信息
-                    fetch(`https://nn63yvybp7.re.qweatherapi.com/geo/v2/city/lookup?location=${longitude},${latitude}&key=${key}`)
+                    fetch(`https://换成你的Host域名/geo/v2/city/lookup?location=${longitude},${latitude}&key=${key}`)
                         .then(response => response.json())
                         .then(locationData => {
                             if (locationData.code === '200' && locationData.location.length > 0) {
@@ -1108,7 +1108,7 @@
                                 document.getElementById('weather-location').textContent = locationName;
                                 
                                 // 然后获取天气信息
-                                return fetch(`https://nn63yvybp7.re.qweatherapi.com/v7/weather/now?location=${location.id}&key=${key}`);
+                                return fetch(`https://换成你的Host域名/v7/weather/now?location=${location.id}&key=${key}`);
                             } else {
                                 throw new Error('无法获取位置信息');
                             }
